@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="right|center_vertical"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:text="기호 :"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:hint="ID"
+            android:id="@+id/edtBookSymbol"
+            android:paddingLeft="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="right|center_vertical"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:text="도서명 :"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:hint="저자명"
+            android:id="@+id/edtBookName"
+            android:paddingLeft="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="right|center_vertical"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:text="저자명 :"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:hint="저자"
+            android:id="@+id/edtBookAuthor"
+            android:paddingLeft="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="right|center_vertical"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:text="출판사 :"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:hint="출판사명"
+            android:id="@+id/edtBookPublisher"
+            android:paddingLeft="5dp"/>
+    </LinearLayout>
+</LinearLayout>

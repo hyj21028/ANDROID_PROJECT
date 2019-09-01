@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새로고침"
+        android:textColor="	#FDF5E6"
+        android:textSize="15dp"
+        android:id="@+id/btnRefresh"
+        android:background="#5F9EA0"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="추가"
+        android:textColor="	#FDF5E6"
+        android:textSize="15dp"
+        android:id="@+id/btnAdd"
+        android:background="#6495ED"
+        android:layout_margin="5dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" />
+
+</LinearLayout>

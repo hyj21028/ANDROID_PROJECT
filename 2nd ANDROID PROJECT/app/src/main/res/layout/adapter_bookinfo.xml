@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tbl1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_BookSymbol"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="bSymbol" />
+
+            <TextView
+                android:id="@+id/tv_BookName"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="bName" />
+
+            <TextView
+                android:id="@+id/tv_BookAuthor"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="bAuthor" />
+
+            <TextView
+                android:id="@+id/tv_BookPublisher"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="bPublisher" />
+
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tbl1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="#99CCFF"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:text="삭제"/>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/btnInsert"
+            android:background="#99CCFF"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:text="수정"/>
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/btnDelete"
+            android:background="#99CCFF"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:text="추가"/>
+    </RelativeLayout>
+
+</RelativeLayout>
